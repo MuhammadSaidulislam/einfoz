@@ -1,0 +1,32 @@
+.tableList table tbody tr {
+    vertical-align: middle;
+}
+
+.listBtn button {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.listBtn button.close {
+    border: 1px solid #e220a1;
+    color: #e220a1;
+}
+
+.listBtn button.accept {
+    border: 1px solid #6366f1;
+    color: #6366f1;
+}
+
+.listBtn button.view {
+    border: 1px solid #1c7fcf;
+    color: #1c7fcf;
+}

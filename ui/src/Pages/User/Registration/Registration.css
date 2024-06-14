@@ -1,0 +1,233 @@
+.loginBox {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    justify-content: center
+}
+
+.loginApp,
+.loginBox {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.loginApp {
+    padding: 28px 25px;
+    position: relative;
+    width: 100%
+}
+
+.loginApp h1 {
+    color: #e84c3d;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.loginApp {
+    text-align: center
+}
+
+.loginApp input {
+    border: 1px solid #e84c3d;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    color: #262626;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+    outline: none;
+    padding: 13px 15px;
+    width: 100%;
+    font-size: 19px;
+}
+
+.loginFooter ,.profileFooter{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginFooter button {
+    background: #e84c3d;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-top: 25px;
+    outline: none;
+    padding: 13px 65px;
+    width: 100%;
+}
+.profileFooter button{
+    padding: 13px 65px;
+    background: #e84c3d;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-top: 25px;
+    outline: none;
+}
+
+.loginFooter p {
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px
+}
+
+.number {
+    text-align: center
+}
+
+.number label {
+    color: #000;
+    font-size: 16px
+}
+
+.number input {
+    border: 1px solid #e84c3d;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    color: #e84c3d;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    outline: none;
+    padding: 8px 12px
+}
+
+.number button {
+    background-color: #e84c3d;
+    border: 1px solid #e84c3d;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    transition: .4s;
+    width: auto
+}
+
+.loginClose {
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;
+    position: absolute;
+    right: -7px;
+    top: -15px;
+    z-index: 9999999;
+    background-color: #e84c3d;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+}
+
+.loginModal .modal-body {
+    padding: 0 !important
+}
+
+.loginApp .inputs label {
+    color: #000;
+    display: block;
+    font-size: 17px;
+    margin-top: 17px;
+    text-align: left !important
+}
+
+.imageFile {
+    border: none !important
+}
+
+.imgFile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.inputFile {
+    width: 100%;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputFile+label {
+    font-size: 16px !important;
+    text-align: center !important;
+    font-weight: 600;
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: #2581d8;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.inputImgField{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.inputImgField label {
+    color: #ffffff !important;
+}
+
+.inputFile:focus+label,
+.inputFile+label:hover {
+    background-color: #2581d8;
+}
+
+.inputFile+label {
+    cursor: pointer;
+    width: 180px;
+}
+
+@media screen and (max-width:640px) {
+    .loginApp {
+        border-radius: 0;
+        width: 100%
+    }
+
+    header {
+        height: 250px;
+        width: 90%
+    }
+
+    .inputs {
+        margin: 0
+    }
+
+    .loginApp button {
+        padding: 12px 15px;
+        width: 100%;
+    }
+
+    .loginApp input {
+        padding: 8px 15px
+    }
+    .profileFooter button{
+        padding: 10px 40px;
+        width: auto;
+    }
+}
